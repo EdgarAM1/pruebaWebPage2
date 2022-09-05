@@ -1,0 +1,79 @@
+/*------------------------fondo------------------------------------------*/
+body {
+    height: 900px;
+    background-image: url(captura2.png); /* imagen dentro de la carpeta*/
+    background-size: cover;
+    background-size: 33rem;
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-attachment: fixed;
+
+    background-color: rgb(0, 3, 48);
+    color: white;
+}
+
+/*------------------------texto general-------------------------------------*/
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    transition: 1s;
+}
+
+/*------------------------encabezado-------------------------------------*/
+div h3 {
+    margin-top: 10%;
+    display: block;
+}
+
+/*------------------------titulo------------------------------------------*/
+div h1 {
+    margin-right: 55%;
+}
+
+/*------------------------texto 1------------------------------------------*/
+div p {
+    font-size: 90%;
+    margin-right: 55%;
+    margin-bottom: 4%;
+}
+
+/*------------------------boton------------------------------------------*/
+.boton {
+    border: 1px solid rgb(0, 3, 48);
+    padding: 1.5%;
+    /* width: 300px; height: 100px;*/
+    background-color: rgb(246, 175, 74); /* color del boton*/
+    color: rgb(0, 3, 48);
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 1s; /* tiempo de la transicion de color al pasar el cursor*/
+}
+
+.boton:hover{
+    background-color: rgb(254, 195, 114); /* color que  tendra al pasar el cursor*/
+}
+
+
+
+
+
+
+/*
+p img {
+    display: block;
+    margin: auto;
+}
+
+
+div h4 {
+    display: block;
+    
+}
+
+p {
+    align-items: baseline;
+    display: block;
+}
+*/
