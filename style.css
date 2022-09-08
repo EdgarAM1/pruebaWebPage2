@@ -1,12 +1,50 @@
 /*------------------------fondo------------------------------------------*/
+
+body {
+    margin: 0%;
+}
+
+/*--------------------------------------------------------*/
+/*------------------------- MENU -------------------------*/
+/*--------------------------------------------------------*/
+nav {
+background-color: brown;
+padding-top: 7px;
+padding-bottom: 7px;
+padding: 12px 0 12px 0; /* poniendo relleno entre el texto y la barra menu*/
+}
+
+nav ul {
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    margin: 0%;/* quitando el margen de los links */
+
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;  /* para quitar el subrayado al texto de los link */
+    margin: 0 20px 0 20px; /* espaciado entre los links */
+
+}
+
+
+/*--------------------------------------------------------*/
+/*-------------------- 1ER CONTENIDO ---------------------*/
+/*--------------------------------------------------------*/
+
 body {
     height: 900px;
     background-image: url(captura2.png); /* imagen dentro de la carpeta*/
+    min-height: 650px;
     background-size: cover;
+    /*background-size: 1800 auto;*/
     background-size: 33rem;
     background-repeat: no-repeat;
     background-position: 85%;
     background-attachment: fixed;
+    
 
     background-color: rgb(0, 3, 48);
     color: white;
@@ -55,7 +93,14 @@ div p {
     background-color: rgb(254, 195, 114); /* color que  tendra al pasar el cursor*/
 }
 
+/*--------------------------------------------------------*/
+/*-------------------- 2DO CONTENIDO ---------------------*/
+/*--------------------------------------------------------*/
 
+.mainWhite {
+
+
+}
 
 
 
