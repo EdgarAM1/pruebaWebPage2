@@ -36,7 +36,7 @@ nav ul a {
 
 body {
     height: 900px;
-    background-image: url(captura2.png); /* imagen dentro de la carpeta*/
+    background-image: url(imagenes/captura2.png); /* imagen dentro de la carpeta*/
     min-height: 650px;
     background-size: cover;
     /*background-size: 1800 auto;*/
