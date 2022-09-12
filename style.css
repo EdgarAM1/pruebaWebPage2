@@ -1,5 +1,9 @@
 /*------------------------fondo------------------------------------------*/
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0%;
 }
@@ -35,6 +39,7 @@ nav ul a {
 /*--------------------------------------------------------*/
 
 body {
+
     height: 900px;
     background-image: url(imagenes/captura2.png); /* imagen dentro de la carpeta*/
     min-height: 650px;
@@ -44,17 +49,19 @@ body {
     background-repeat: no-repeat;
     background-position: 85%;
     background-attachment: fixed;
-    
+
 
     background-color: rgb(0, 3, 48);
-    color: white;
+    
 }
 
 /*------------------------texto general-------------------------------------*/
 div {
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 5%;
-    transition: 1s;
+    transition: 2s;
+    color: white;
 }
 
 /*------------------------encabezado-------------------------------------*/
@@ -68,28 +75,28 @@ div h1 {
     margin-right: 55%;
 }
 
-/*------------------------texto 1------------------------------------------*/
+/*------------------------ parrafo ------------------------------------------*/
 div p {
     font-size: 90%;
     margin-right: 55%;
     margin-bottom: 4%;
 }
 
-/*------------------------boton------------------------------------------*/
+/*------------------------ boton ------------------------------------------*/
 .boton {
     border: 1px solid rgb(0, 3, 48);
-    padding: 1.5%;
+    padding: 1.5% 5%; /* separacion de altura y anchura del boton */
     /* width: 300px; height: 100px;*/
     background-color: rgb(246, 175, 74); /* color del boton*/
     color: rgb(0, 3, 48);
     text-decoration: none;
     /*text-transform: uppercase;*/
-    border-radius: 50px;
+    border-radius: 50px; /* esquinas redondeadas del boton*/
     cursor: pointer;
     transition: background-color 1s; /* tiempo de la transicion de color al pasar el cursor*/
 }
 
-.boton:hover{
+.boton:hover{   /* realizar alguna accion cuando pasa el raton sobre el boton  */
     background-color: rgb(254, 195, 114); /* color que  tendra al pasar el cursor*/
 }
 
@@ -98,9 +105,32 @@ div p {
 /*--------------------------------------------------------*/
 
 .mainWhite {
-
-
+    margin: 0%;
+    background-color: white;
+    color: black;
 }
+
+.mainWhite p {
+    margin: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+
+    text-align: center;
+}
+
+/*--------------------------------------------------------*/
+/*-------------------- PIE DE PAGINA ---------------------*/
+/*--------------------------------------------------------*/
+
+footer{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 
 
 
